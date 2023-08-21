@@ -1,0 +1,83 @@
+/* Estilos para a seção de pessoas */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #262626;
+    padding: 50px 0;
+  }
+  
+  .section {
+    background-color: #181818;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .section img {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 1%;
+  }
+  
+  .pessoa-descricao {
+    flex-grow: 1;
+    font-family: 'PT Sans Caption', sans-serif;
+  }
+  
+  .pessoa-descricao h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  
+  .pessoa-descricao p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  img{
+    max-width: 60%;
+    position: relative;
+    border-radius: 50%;
+  }
+  
+
+  @media screen and (max-width: 1230px) {
+    main {
+      grid-template-columns: repeat(2, 50%);
+      grid-template-rows: auto auto;
+    }
+  
+    img {
+      max-height: 45%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    main {
+      grid-template-columns: none;
+      grid-template-rows: repeat(4, 25%);
+    }
+    section {
+      flex-direction: row; 
+      justify-content: space-evenly;
+      align-items: center;
+    } 
+    img {
+      max-height: 55%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    section {
+      flex-direction: column; 
+    } 
+  }
+  
