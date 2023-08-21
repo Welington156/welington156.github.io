@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/icone.png" type="image/png">
+    <link rel="stylesheet" href="../../style/main.css">
+    <link rel="stylesheet" href="../../style/tag.css">
+    <link rel="stylesheet" href="../../style/referencias.css">
+    <link rel="stylesheet" href="../../style/index.css">
+    <link rel="stylesheet" href="../../style/navfooter.css">
+    <title>Tag Select</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="../../img/icone.png" alt="Ícone HTML Tags" class="icon">
+                Tags HTML
+            </div>
+            <ul class="navbar-options">
+                <li class="navbar-options-item"><a href="../../index.html">Home</a></li>
+                <li class="navbar-options-item"><a href="../referencias.html">Referências</a></li>
+                <li class="navbar-options-item"><a href="../sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section><h1 class="title">Tag &lt;Select/&gt;</h1></section>
+        
+
+        <section class="definition">
+
+            <h2>Definição</h2>
+            <p>O &lt;select&gt; elemento é usado para criar uma lista suspensa.</p>
+            <p>O &lt;select&gt; elemento é usado com mais frequência em um formulário para coletar a entrada do usuário.</p>
+
+            <p> O nameatributo é necessário para fazer referência aos dados do formulário após o envio do formulário 
+           (se você omitir o nameatributo, nenhum dado da lista suspensa será enviado).</p> 
+            <p>O idatributo é necessário para associar a lista suspensa a um rótulo.</p>
+            <p>As tags &lt;option&gt; dentro do &lt;select&gt; elemento definem as opções disponíveis na lista suspensa.</p>
+
+        </section>
+         
+        
+        <section>
+            <h2 class="tag-title">Atributos</h2>
+            <table id="atributos">
+                <tr>
+                    <th>Atributo</th>
+                    <th>Valor</th>
+                    <th>Descrição</th>
+                </tr>
+                
+                <!-- Linha 1 -->
+                <tr>
+                    <td>autofocus</td>
+                    <td>autofocus</td>
+                    <td>Especifica que a lista suspensa deve obter foco automaticamente quando a página for carregada</td>
+                </tr>
+                
+                <!-- Linha 2 -->
+                <tr>
+                    <td>disabled</td>
+                    <td>disabled</td>
+                    <td>Especifica que uma lista suspensa deve ser desativada</td>
+                </tr>
+                <tr>
+                    <td>form</td>
+                    <td>form_id</td>
+                    <td>Define a qual formulário a lista suspensa pertence</td>
+                </tr>
+                <tr>
+                    <td>multiple</td>
+                    <td>multiple</td>
+                    <td>Especifica que várias opções podem ser selecionadas ao mesmo tempo</td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>name</td>
+                    <td>Define um nome para a lista suspensa</td>
+                </tr>
+                <tr>
+                    <td>required</td>
+                    <td>required</td>
+                    <td>Especifica que o usuário deve selecionar um valor antes de enviar o formulário</td>
+                </tr>
+                <tr>
+                    <td>size</td>
+                    <td>number</td>
+                    <td>Define o número de opções visíveis em uma lista suspensa</td>
+                </tr>
+                
+                <!-- ... Outras linhas ... -->
+            </table>
+        </section>
+
+
+        <section class="example">
+            <h1>Exemplos</h1>
+            <pre>
+            <code>
+            &lt;select name="cars" id="cars">
+            &lt;option value="volvo">Volvo &lt;/option&gt;
+            &lt;option value="saab">Saab &lt;/option&gt;
+            &lt;option value="mercedes">Mercedes &lt;/option&gt;
+            &lt;option value="audi">Audi &lt;/option&gt;
+            &lt;/select>
+            </code>
+            </pre>
+        </section>
+
+    </main>
+  
+    <footer>
+
+
+
+        <p>&copy; 2023 - Desenvolvimento Web - Página Referências HTML - IFNMG</p>
+    </footer>
+</body>
+</html>
