@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/icone.png" type="image/png">
+    <link rel="stylesheet" href="../../style/main.css">
+    <link rel="stylesheet" href="../../style/tag.css">
+    <link rel="stylesheet" href="../../style/referencias.css">
+    <link rel="stylesheet" href="../../style/index.css">
+    <link rel="stylesheet" href="../../style/navfooter.css">
+    <title>Tag form</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="../../img/icone.png" alt="Ícone HTML Tags" class="icon">
+                Tags HTML
+            </div>
+            <ul class="navbar-options">
+                <li class="navbar-options-item"><a href="../../index.html">Home</a></li>
+                <li class="navbar-options-item"><a href="../referencias.html">Referências</a></li>
+                <li class="navbar-options-item"><a href="../sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section><h1 class="title">Tag &lt;form/&gt;</h1></section>
+
+        <section class="definition">
+            <h2>Definição</h2>
+            <p>A &lt;form&gt; tag é usada para criar um formulário HTML para entrada do usuário.</p>
+            <p>O &lt;form&gt; elemento pode conter um ou mais dos seguintes elementos de formulário:</p>
+            <ul>
+              <li><u>&lt;entrada&gl;</u></li>
+              <li><u>&lt;área de texto&gl;</u></li>
+              <li><u>&lt;botão&gl;</u></li>
+              <li><u>&lt;selecionar&gl;</u></li>
+              <li><u>&lt;optgroup&gl;</u></li>
+              <li><u>&lt;conjunto de campos&gl;</u></li>
+              <li><u>&lt;rótulo&gl;</u></li>
+              <li><u>&lt;saída&gl;</u></li>
+             </ul>
+        </section>
+        <section>
+            <h2 class="tag-title">Atributos</h2>
+            <table id="atributos">
+                <tr>
+                    <th>Atributo</th>
+                    <th>Valor</th>
+                    <th>Descrição</th>
+                </tr>
+                <tr>
+                    <td><u>accept-charset</u></td>
+                    <td><i>character_set</i></td>
+                    <td>Especifica as codificações de caracteres que serão usadas para o envio do formulário</td>
+                </tr>
+                <tr>
+                    <td><u>action</u></td>
+                    <td><i>URL</i></td>
+                    <td>Especifica para onde enviar os dados do formulário quando um formulário é enviado</td>
+               </tr>
+               <tr>
+                    <td><u>autocomplete</u></td>
+                    <td>on<br>off</td>
+                    <td>Especifica se um formulário deve ter o preenchimento automático ativado ou desativado</td>
+              </tr>
+              <tr>
+                    <td><u>enctype</u></td>
+                    <td>application/x-www-form-urlencoded<br>multipart/form-data<br>text/plain</td>
+                    <td>Especifica como os dados do formulário devem ser codificados ao enviá-los ao servidor (apenas para method="post")</td>
+              </tr>
+              <tr>
+                    <td><u>method</u></td>
+                    <td>get<br>post</td>
+                    <td>Especifica o método HTTP a ser usado ao enviar dados de formulário</td>
+              </tr>
+              <tr>
+                    <td><u>name</u></td>
+                    <td><i>text</i></td>
+                    <td>Especifica o nome de um formulário</td>
+              </tr>
+              <tr>
+                    <td><u>novalidate</u></td>
+                    <td>novalidate</td>
+                    <td>Especifica que o formulário não deve ser validado quando enviado</td>
+              </tr>
+              <tr>
+                    <td><u>rel</u></td>
+                    <td>external<br>help<br>license<br>next<br>nofollow<br>noopener<br>noreferrer<br>opener<br>prev<br>search</td>
+                    <td>Especifica a relação entre um recurso vinculado e o documento atual</td>
+              </tr>
+              <tr>
+                    <td><u>target</u></td>
+                    <td>_blank<br>_self<br>_parent<br>_top</td>
+                    <td>Especifica onde exibir a resposta recebida após o envio do formulário</td>
+              </tr>    
+           </table>
+        </section>
+        <section class="example">
+            <h2>Exemplos</h2>
+            <pre>
+            <code>
+              &lt;form action="/action_page.php" method="get">
+                &lt;label for="fname">First name:&lt;/label>
+                &lt;input type="text" id="fname" name="fname">&lt;br>&lt;br>
+                &lt;label for="lname">Last name:&lt;/label>
+                &lt;input type="text" id="lname" name="lname">&lt;br>&lt;br>
+                &lt;input type="submit" value="Submit">
+              &lt;/form>
+            </code>
+            </pre>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 - Desenvolvimento Web - Página Referências HTML - IFNMG</p>
+    </footer>
+</body>
+</html>
