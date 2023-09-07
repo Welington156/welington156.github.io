@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/icone.png" type="image/png">
+    <link rel="stylesheet" href="../../style/main.css">
+    <link rel="stylesheet" href="../../style/tag.css">
+    <link rel="stylesheet" href="../../style/referencias.css">
+    <link rel="stylesheet" href="../../style/index.css">
+    <link rel="stylesheet" href="../../style/navfooter.css">
+    <title>Tag area</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="../../img/icone.png" alt="Ícone HTML Tags" class="icon">
+                Tags HTML
+            </div>
+            <ul class="navbar-options">
+                <li class="navbar-options-item"><a href="../../index.html">Home</a></li>
+                <li class="navbar-options-item"><a href="../referencias.html">Referências</a></li>
+                <li class="navbar-options-item"><a href="../sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section><h1 class="title">Tag &lt;area/&gt;</h1></section>
+
+        <section class="definition">
+
+            <h2>Definição</h2>
+              <p>A &lt;area>tag define uma área dentro de um mapa de imagem (um mapa de imagem é uma imagem com áreas clicáveis).</p>
+              <p>&lt;area>os elementos são sempre aninhados dentro de uma &lt;map>tag.</p>
+              <p>O atributo usemap em &lt;img>está associado ao atributo &lt;map>do elemento name e cria uma relação entre a imagem e o mapa.</p>
+        </section>
+        <section>
+            <h2 class="tag-title">Atributos</h2>
+            <table id="atributos">
+                <tr>
+                    <th>Atributo</th>
+                    <th>Valor</th>
+                    <th>Descrição</th>
+                </tr>
+                
+                <tr>
+                    <td>alt</td>
+                    <td>text</td>
+                    <td>Especifica um texto alternativo para a área. 
+                        Obrigatório se o atributo href estiver presente</td>
+                </tr>
+
+                <tr>
+                    <td>coords</td>
+                    <td>coordinates</td>
+                    <td>Especifica as coordenadas da área</td>
+                </tr>
+
+                <tr>
+                    <td>download</td>
+                    <td>filename</td>
+                    <td>Especifica que o destino será baixado quando um usuário clicar no hiperlink</td>
+                </tr>
+
+            </table>
+        </section>
+        <section class="example">
+            <h2>Exemplos</h2>
+            <pre>
+            <code>
+                &lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+                &lt;map name="workmap">
+                &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                &lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                &lt;area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                &lt;/map>
+            </code>
+            </pre>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 - Desenvolvimento Web - Página Referências HTML - IFNMG</p>
+    </footer>
+</body>
+</html>
