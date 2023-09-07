@@ -55,7 +55,6 @@ footer {
   --cor1: #a70cf0;
   font-family: 'Source Code Pro', monospace;
   font-weight: bold;
-  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 2em 10vw;
