@@ -28,3 +28,12 @@ a:visited {
 ul {
     list-style: none;
 }
+
+.title-container {
+    padding: 20px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #292929;
+    color: #a708d7;
+    text-align: center;
+  }
